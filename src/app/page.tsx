@@ -182,18 +182,15 @@ export default function Home() {
         <div className="container flex flex-col items-center justify-between gap-4 md:h-16 md:flex-row">
           <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} Jemal Mohammed. All rights reserved.</p>
           <div className="flex items-center gap-4">
-            <Link href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground">
+            <Link href="https://github.com/jemal-M?tab=repositories" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground">
               <Github className="h-4 w-4" />
               <span className="sr-only">GitHub</span>
             </Link>
-            <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground">
+            <Link href=": linkedin.com/in/jemal-mohammed-5a9770307" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground">
               <Linkedin className="h-4 w-4" />
               <span className="sr-only">LinkedIn</span>
             </Link>
-            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground">
-              <Twitter className="h-4 w-4" />
-              <span className="sr-only">Twitter</span>
-            </Link>
+             
           </div>
         </div>
       </footer>
