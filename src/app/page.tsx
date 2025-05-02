@@ -91,7 +91,7 @@ export default function Home() {
             </div>
             <div className="flex justify-center lg:justify-end">
               <AnimatedPhoto 
-                src="/profile.jpg" 
+                src="/me.jpg" 
                 alt="Jemal Mohammed" 
                 className="w-64 h-64 lg:w-80 lg:h-80"
               />
